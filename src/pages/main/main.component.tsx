@@ -9,7 +9,7 @@ export const Main : FC = (): ReactElement =>{
 
     return(
         <div id="main" className="bg-black h-screen w-screen flex ">
-            <Profile />            
+            <Profile />
             <SideBar />
             <ChatScreen />
             <Threads />
