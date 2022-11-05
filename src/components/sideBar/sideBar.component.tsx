@@ -3,7 +3,7 @@ import { User } from "../../service/logindata";
 import './sideBar.style.scss'
 import { EditSVG } from "../../utils/svg/svg.utils";
 import { Menu } from "./menu/menu.component";
-import { Message } from "./directMessage/message.component";
+import { DirectMessage } from "./directMessage/message.component";
 
 export const SideBar : FC = (): ReactElement =>{
 
@@ -18,9 +18,9 @@ export const SideBar : FC = (): ReactElement =>{
                     <EditSVG />
                 </div>
             </div>
-            <div id="body" className="  h-fit p-6 overflow-y-scroll	">
+            <div id="body" className="  h-full p-6 pb-0 overflow-y-scroll">
                 <Menu />
-                <Message />
+                <DirectMessage />
             </div>
         </div>
     )

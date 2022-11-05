@@ -2,7 +2,7 @@ import { FC, ReactElement } from "react";
 import { OnlineSVG, UpSVG } from "../../../utils/svg/svg.utils";
 import './message.style.scss'
 
-export const Message : FC = (): ReactElement =>{
+export const DirectMessage : FC = (): ReactElement =>{
 
     return(
         <div id="Menu" className="mt-3">
@@ -14,15 +14,15 @@ export const Message : FC = (): ReactElement =>{
                     </div>
                     <div className="flex p-3 items-center cursor-pointer ">
                         <div id="isOnline" className="pr-4 "><OnlineSVG isOnline={true}/></div>
-                        <div className="Peoples text-slate-500">Subramanian</div>
+                        <div className="Peoples text-slate-500">RamaSami</div>
                     </div>
                     <div className="flex p-3 items-center cursor-pointer ">
                         <div id="isOnline" className="pr-4"><OnlineSVG isOnline={false}/></div>
-                        <div className="Peoples text-slate-500">Selin</div>
+                        <div className="Peoples text-slate-500">Roy</div>
                     </div>
                     <div className="flex p-3 items-center cursor-pointer ">
                         <div id="isOnline" className="pr-4"><OnlineSVG isOnline={true}/></div>
-                        <div className="Peoples text-slate-500">Aswin</div>
+                        <div className="Peoples text-slate-500">KuppuSamy</div>
                     </div>
                     <div className="flex p-3 items-center cursor-pointer ">
                         <div id="isOnline" className="pr-4"><OnlineSVG isOnline={true}/></div>
@@ -30,15 +30,15 @@ export const Message : FC = (): ReactElement =>{
                     </div>
                     <div className="flex p-3 items-center cursor-pointer ">
                         <div id="isOnline" className="pr-4 "><OnlineSVG isOnline={true}/></div>
-                        <div className="Peoples text-slate-500">Subramanian</div>
+                        <div className="Peoples text-slate-500">Karuppu</div>
                     </div>
                     <div className="flex p-3 items-center cursor-pointer ">
                         <div id="isOnline" className="pr-4"><OnlineSVG isOnline={false}/></div>
-                        <div className="Peoples text-slate-500">Selin</div>
+                        <div className="Peoples text-slate-500">Kathavarayan</div>
                     </div>
                     <div className="flex p-3 items-center cursor-pointer ">
                         <div id="isOnline" className="pr-4"><OnlineSVG isOnline={true}/></div>
-                        <div className="Peoples text-slate-500">Aswin</div>
+                        <div className="Peoples text-slate-500">ffdtfgjh</div>
                     </div>
                 </div>
             <div id="footer">
