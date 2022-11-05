@@ -28,12 +28,13 @@ export const ChatScreen : FC = (): ReactElement =>{
         >
           DOIINN
         </div>
-        <div id="body" ref={chatBody} className="flex h-fit m-3 mb-0 flex-col overflow-scroll">
+        <div id="body"  className="flex h-fit m-3 mb-0 flex-col overflow-scroll">
           {
             MsgArray?.map((val)=>(
               <Message val={val} />
             ))
           }
+          <span ref={chatBody}></span>
         </div>
         <div
           id="footer"
