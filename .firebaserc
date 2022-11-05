@@ -1,6 +1,7 @@
 {
   "projects": {
-    "staging": "doiinn"
+    "staging": "doiinn",
+    "default": "doiinn"
   },
   "targets": {},
   "etags": {}
