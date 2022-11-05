@@ -2,3 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+$color1 :     #161719;
+$color2 :     #26272b;
+$text :       #9fa2a7;
+$highlight1 : #56b273;
+$highlight2 : #b388dd;
+$highlight3 : #ff8750;
+$highlight4 : #01AD9B;
+
+.sender {
+    background-color: $color2;
+    color: $text;
+    font-size: .8em;
+    line-height: 1.75;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+    border-right: 5px solid blue;
+    cursor: default;
+    border-radius: 5px;
+    max-width: 400px;
+}
+.receiver {
+    background-color: $color2;
+    color: $text;
+    font-size: .8em;
+    line-height: 1.75;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+    border-left: 5px solid;
+    cursor: default;
+    border-radius: 5px;
+    max-width: 400px;
+}
+.username {
+    display: inline;
+    font-style: italic;
+    float: right;
+    &:before {
+        content: '- ';
+    }
+}
