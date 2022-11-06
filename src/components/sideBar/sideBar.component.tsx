@@ -14,7 +14,7 @@ export const SideBar : FC = (): ReactElement =>{
                     <div id="userName" className="text-lg font-semibold text-slate-300">{User.name}</div>
                     <div id="userRole" className="text-xs text-slate-600">{User.role}</div>
                 </div>
-                <div id="edit" className="whiteSvg text-slate-200">
+                <div id="edit" className="whiteSvg p-2 text-slate-200 rounded-md bg-slate-700 cursor-pointer hover:bg-slate-500 hover:text-slate-800">
                     <EditSVG />
                 </div>
             </div>

@@ -20,7 +20,7 @@ export const ChatScreen : FC = (): ReactElement =>{
     return (
       <div
         id="ChatScreen"
-        className="bg-gray-900 bg-opacity-80 h-full w-full  mr-1 rounded-lg rounded-tl-none rounded-bl-none flex flex-col justify-between "
+        className=" bg-gray-900 bg-opacity-80 h-full w-full  mr-1 rounded-lg rounded-tl-none rounded-bl-none flex flex-col justify-between "
       >
         <div
           id="header"
@@ -51,7 +51,7 @@ export const ChatScreen : FC = (): ReactElement =>{
               onChange={(e)=>setMessage(e.target.value)}
             ></input>
             </form>
-            <div id="inputMenu" className="h-1/2 w-full flex justify-between items-end pb-3">
+            <div id="inputMenu" className="h-1/2 w-full flex justify-between items-end pb-3 text-slate-200">
               <div id="left" className="flex px-3 w-56 justify-between cursor-pointer">
                 <div onClick={saveChat}><SendSVG /></div>
                 <MentionSVG />
